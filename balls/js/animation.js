@@ -87,7 +87,7 @@ const animate = () => {
   requestAnimationFrame(animate);
   let [dx, dy] = [4, 0];
   balls.forEach((ball) => {
-    ball.update(1, 2);
+    ball.update(1, 2);  
   });
 };
 
